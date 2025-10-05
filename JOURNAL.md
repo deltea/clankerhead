@@ -70,3 +70,23 @@ welp, let's get to work i guess.
 *this was taken from my blog at [deltea.space](https://deltea.space)*
   
 
+## 10/5/2025 - did some more research and made a bom  
+
+i basically researched about how i'm gonna make this thing, and made a list of parts i needed, and things i already have that i could use for the project. the final list is something like this:
+
+- led matrix
+- old bike helmet or something like that
+- m3 machine screws
+- mini usb microphone
+- white petg filament
+- power banks _(already have)_
+- raspberry pi 3 _(already have)_
+- aux cable _(already have)_
+- small display _(already have)_
+- usb webcam _(already have)_
+- speaker _(already have)_
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDk0LCJwdXIiOiJibG9iX2lkIn19--4628d0f57434a644741c3efd07e02902f66e0e0f/image.png)
+
+that's pretty much the entire list! i think the next step is to go to goodwill and look for some cheap used helmets that maybe i could take apart and use as the base of the design. until i have the dimensions of the actual helmet, i feel like it's kinda hard to design. but yeah  
+
