@@ -1,2 +1,2 @@
-source ./audio.sh &
+python ./audio.py &
 source ./webcam.sh &
