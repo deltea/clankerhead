@@ -7,7 +7,8 @@ cv2.setWindowProperty("Imagetest", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREE
 
 while True:
 	ret, image = cam.read()
-	cv2.imshow("Imagetest", image)
+	if ret and image is not None:
+		cv2.imshow("Imagetest", image)
 	k = cv2.waitKey(1)
 	if k != -1:
 		break
