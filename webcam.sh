@@ -1,1 +1,1 @@
-DISPLAY=:0 python main.py
+DISPLAY=:0 python webcam.py
