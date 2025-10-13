@@ -10,7 +10,7 @@ This is my journal of the design and building process of **clanker head**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/104).
 
 
-## 10/4/2025 - i was ideating real good (i wrote a blog post)  
+## 10/3/2025 - i was ideating real good (i wrote a blog post)  
 
 so 2 days ago i went to the bay area maker faire, which is basically a giant convention with people making cool stuff, like electronics, robots, art, and costumes. i saw a bunch of interesting things there, like some indie games and stuff, but one kinda stood out a lot for some reason (idk why).
 
@@ -70,7 +70,7 @@ welp, let's get to work i guess.
 *this was taken from my blog at [deltea.space](https://deltea.space)*
   
 
-## 10/5/2025 - did some more research and made a bom  
+## 10/4/2025 - did some more research and made a bom  
 
 i basically researched about how i'm gonna make this thing, and made a list of parts i needed, and things i already have that i could use for the project. the final list is something like this:
 
@@ -89,4 +89,22 @@ i basically researched about how i'm gonna make this thing, and made a list of p
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDk0LCJwdXIiOiJibG9iX2lkIn19--4628d0f57434a644741c3efd07e02902f66e0e0f/image.png)
 
 that's pretty much the entire list! i think the next step is to go to goodwill and look for some cheap used helmets that maybe i could take apart and use as the base of the design. until i have the dimensions of the actual helmet, i feel like it's kinda hard to design. but yeah  
+
+## 10/12/2025 - programming the pi + more research  
+
+i got the voice changer and the live webcam feed working on the pi! this is basically all the easy programming parts done. all that's left to do in terms of programming is just making the led matrix work, and somehow detecting the sounds coming from my mouth and showing it on the led matrix (somehow).
+
+i'm ordering the led matrix off of amazon instead of aliexpress, because i lowkey don't have a lot of time to finish this project (halloween is 2 weeks away!), and amazon is just way faster.
+
+the next step for this project is designing the structure of the actual helmet, and actually make it somehow fit onto my weirdly shaped bike helmet:
+
+![IMG_3849.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTkyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--92c07070ef362423bd363fb4efb56d905173f018/IMG_3849.png)
+
+here's my setup rn for programming:
+
+![ezgif-50c87fdc2e00c8.gif](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTkyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--46ad8ed925467394f8bfa3dc9e6e37806df40e57/ezgif-50c87fdc2e00c8.gif)
+
+(the gif might be a liiiitle bit laggy)
+
+i think i might just make something like the frame of a box, then maybe put cardboard pieces into slots??? i don't really want to 3d print the entire thing, since it seems kinda like a waste of filament.  
 
