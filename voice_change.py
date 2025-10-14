@@ -1,7 +1,6 @@
 import numpy as np
 import sounddevice as sd
 import queue
-import threading
 import time
 
 SAMPLE_RATE = 44100
@@ -18,7 +17,7 @@ audio_q = queue.Queue()
 def draw_mouth(level):
     # replace this with your actual LED matrix code
     shapes = ["CLOSED", "MID", "OPEN"]
-    # print(f"Mouth: {shapes[min(level, LED_MOUTH_LEVELS-1)]}", end="\r")
+    print(f"Mouth: {shapes[min(level, LED_MOUTH_LEVELS-1)]}", end="\r")
 
 def pitch_shift_block(block, pitch):
     indices = np.round(np.arange(0, len(block), pitch))
@@ -35,8 +34,7 @@ def pitch_shift_block(block, pitch):
     return shifted
 
 def audio_callback(indata, outdata, frames, time_info, status):
-    if status:
-        print(status)
+    if status: print(status)
 
     # apply pitch shift per channel
     shifted = np.zeros_like(indata)
@@ -49,10 +47,16 @@ def audio_callback(indata, outdata, frames, time_info, status):
     rms = np.sqrt(np.mean(np.square(indata)))
 
     # change rms scaling to mouth
-    level = int(min(rms * 10, LED_MOUTH_LEVELS-1))
+    level = int(min(rms * 10, LED_MOUTH_LEVELS - 1))
     draw_mouth(level)
 
-with sd.Stream(channels=CHANNELS, samplerate=SAMPLE_RATE, blocksize=BLOCK_SIZE, device=(INPUT_DEVICE, OUTPUT_DEVICE), callback=audio_callback):
+with sd.Stream(
+    channels=CHANNELS,
+    samplerate=SAMPLE_RATE,
+    blocksize=BLOCK_SIZE,
+    device=(INPUT_DEVICE, OUTPUT_DEVICE),
+    callback=audio_callback
+):
     print("running voice changer + mouth. press ctrl+c to stop")
     while True:
         time.sleep(0.1)
