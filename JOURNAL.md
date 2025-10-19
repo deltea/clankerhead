@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **clanker head**.  
+This is my journal of the design and building process of **clankerhead**.  
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/104).
 
 
@@ -107,4 +107,15 @@ here's my setup rn for programming:
 (the gif might be a liiiitle bit laggy)
 
 i think i might just make something like the frame of a box, then maybe put cardboard pieces into slots??? i don't really want to 3d print the entire thing, since it seems kinda like a waste of filament.  
+
+## 10/18/2025 - start cad-in the helmet design  
+
+i finally started working on the design of the helmet-helmet thingy! this is the hardest part for me, since i'm not super familiar with cad, and 3d design in general. i'm using this lesser known cad called "shapr3d" because it's free and also looked pretty user friendly, soooooo yeah. i started by making a hole cutout for the led matrix to go in front, and made the base around it. the helmet is supposed to fit onto a separate bike helmet (which is weirdly sized), so i have to make sure to design around that.
+
+here's the design i got to today:
+![Screenshot 2025-10-18 at 5.58.41 PM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NywicHVyIjoiYmxvYl9pZCJ9fQ==--7e969db7453994d5b5d3b0e8d5d424867e4939b6/Screenshot%202025-10-18%20at%205.58.41%E2%80%AFPM.png)
+
+i think it looks pretty good, and i even added holes for the wires and stuff! the raspberry pi is placed on the outside, then secured with screws. i tried to make a hole where the camera is supposed to be on top, but i didn't finish. i'm really worried about if this design will work with the bike helmet, since i lowkey just estimated the sizes for the helmet... uhhhhhhhhhhhhhhhhh i hope it ok.
+
+on a programming note, i still have to figure out how to do the frickin mouth shapes thingy, which is actually a bit harder than i originally thought.  
 
